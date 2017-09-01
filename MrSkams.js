@@ -1,6 +1,5 @@
 
-var mrSkam = prompt("Choose a number bewtween 1-6! No decimals!");
-var mrSkam = Math.floor(parseInt(mrSkam));
+var mrSkam = Math.floor(Math.random()*6+1);
 if ((mrSkam<1)||(mrSkam>6)||isNaN(mrSkam)){
 window.alert("FOOLLOW THE RULLES");
 }
