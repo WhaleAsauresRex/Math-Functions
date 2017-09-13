@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style></style>
+</head>
+<body>
+  <h1>
+Pythagorean theorem
+</h1>
+<br>
+<h1>A:</h1>
+<input type="text" id="A">
+<br>
+<h1>B:</h1>
+<input type="text" id="B">
+<h1 id="hey">
+</h1>
+<br>
+<button onClick="showAnswer()">
+Show ME THE MONEHHHH
+</button>
+  <script>
+function showAnswer(){
+ var y = document.getElementById('A').value;
+ var g = Math.pow(y,2);
+ var v =document.getElementById('B').value;
+ var b = Math.pow(v,2);
+ var d = g + b;
+ var z = Math.sqrt(d);
+ var x =document.getElementById('hey').innerHTML=z;
+}</script>
+</body>
+</html>
